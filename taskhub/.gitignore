@@ -1,0 +1,39 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment directory (if you're using venv or virtualenv)
+venv/
+
+# Ignore database files (if you're using SQLite)
+db.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore generated media files (uploads, images, etc.)
+media/
+
+# Ignore the static files directory (you might need to customize this)
+static/
+
+# Ignore the secret key file (keep this private and secure)
+secret_key.txt
+
+# Ignore environment-specific settings files
+*.env
+
+# Ignore local settings file (if you have one)
+local_settings.py
+
+# Ignore the .vscode directory (if you're using Visual Studio Code)
+.vscode/
+
+# Ignore the __MACOSX directory (if you're on macOS)
+__MACOSX/
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
